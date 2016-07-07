@@ -1,6 +1,5 @@
 require 'sinatra'
 require 'json'
-require 'rack/ssl-enforcer'
 
 # File Sharing Web Service
 class PdfUploadAPI < Sinatra::Base
