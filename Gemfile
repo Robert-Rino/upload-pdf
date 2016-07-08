@@ -9,6 +9,7 @@ gem 'rake'
 gem 'tux'
 gem 'jose'
 gem 'http'
+gem 'rbnacl-libsodium'
 
 group :development do
   gem 'rerun'
