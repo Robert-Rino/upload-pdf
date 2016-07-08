@@ -10,6 +10,7 @@ GEM
     ffi (1.9.13)
     hamster (3.0.0)
       concurrent-ruby (~> 1.0)
+    hirb (0.7.3)
     http (2.0.2)
       addressable (~> 2.3)
       http-cookie (~> 1.0)
@@ -74,6 +75,7 @@ PLATFORMS
 
 DEPENDENCIES
   config_env
+  hirb
   http
   jose
   json

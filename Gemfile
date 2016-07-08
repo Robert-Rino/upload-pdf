@@ -9,6 +9,7 @@ gem 'rake'
 gem 'tux'
 gem 'jose'
 gem 'http'
+gem 'hirb'
 gem 'rbnacl-libsodium'
 
 group :development do
