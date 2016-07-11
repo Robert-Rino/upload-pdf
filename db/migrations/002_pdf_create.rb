@@ -2,7 +2,7 @@ require 'sequel'
 
 Sequel.migration do
   change do
-    create_table(:pdf_create) do
+    create_table(:pdfs) do
       foreign_key :course_id
       String :slide_name, null: false
       String :document_plain, text: true
