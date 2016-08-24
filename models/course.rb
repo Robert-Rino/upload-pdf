@@ -5,6 +5,7 @@ require 'json'
 # Holds and persists an account's information
 class Course < Sequel::Model
   plugin :timestamps, :create=>:create_at, :update=>:update_at, update_or_create: true
+  set_allowed_columns :course_name
 
   one_to_many :pdfs
 
