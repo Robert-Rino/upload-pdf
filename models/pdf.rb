@@ -3,7 +3,7 @@ require 'base64'
 require 'json'
 
 class Pdf < Sequel::Model
-  plugin :timestamps, :create=>:create_at, :update=>:update_at, update_or_create: true
+  plugin :timestamps, :create=>:create_at, :update=>:update_at, update_on_create: true
   set_allowed_columns :slide_name
 
   many_to_one :courses
