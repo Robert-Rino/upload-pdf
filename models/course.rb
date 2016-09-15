@@ -8,6 +8,7 @@ class Course < Sequel::Model
   set_allowed_columns :course_name
 
   one_to_many :pdfs
+  many_to_one :accounts
 
   plugin :association_dependencies, pdfs: :destroy
 
